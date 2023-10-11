@@ -9,11 +9,11 @@ public class FlowerPack {
         this.quantity = quantity;
     }
 
-    public void setQuantity(int some_quantity) {
-        if (some_quantity < 1) {
+    public void setQuantity(int someQuantity) {
+        if (someQuantity < 1) {
             this.quantity = 1;
         } else {
-            this.quantity = some_quantity;
+            this.quantity = someQuantity;
         }
     }
 
